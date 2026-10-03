@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spa Campolim Head & Body Spa | Sorocaba - SP</title>
+<meta name="description" content="Spa Campolim Head & Body Spa em Sorocaba. Conheça nossas experiências de Head Spa, massagens e cuidados para seu bem-estar.">
+<meta property="og:title" content="Spa Campolim Head & Body Spa | Sorocaba - SP">
+<meta property="og:description" content="Experiências de Head Spa, massagens e cuidados para seu bem-estar em Sorocaba.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23657044'/%3E%3Cpath d='M21 9c-6-3-12 1-8 6s4 3 6 8c-7 1-10-4-7-8' fill='none' stroke='%23C8A85B' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--olive:#657044;--deep:#3F4930;--gold:#C8A85B;--cream:#F6F1E7;--sand:#DED2BE;--ink:#292B26;--serif:"Cormorant Garamond",Georgia,serif;--sans:Manrope,system-ui,sans-serif;--h:84px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%}
+body{font:300 1.0625rem/1.75 var(--sans);color:var(--ink);background:var(--cream);overflow-x:hidden;padding-bottom:env(safe-area-inset-bottom,0)}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;color:var(--olive);line-height:1.1;letter-spacing:.04em}
+h2{font-size:clamp(2.1rem,5vw,3.6rem);margin-bottom:1.2rem}
+h3{font-size:1.6rem;letter-spacing:.03em}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(4.5rem,10vw,8rem) 0}
+.lead{max-width:34rem;color:#4a4d44}
+.line{width:56px;height:1px;background:var(--gold);margin:1.4rem 0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.8rem 1.8rem;border:1px solid var(--gold);border-radius:999px;font:500 .85rem var(--sans);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;cursor:pointer;background:var(--olive);color:var(--cream);transition:transform .35s,background .35s,color .35s,box-shadow .35s}
+.btn:hover{transform:translateY(-3px);background:var(--deep);box-shadow:0 8px 20px -10px rgba(63,73,48,.6)}
+.btn:active{transform:translateY(0)}
+.btn.ghost{background:transparent;color:var(--cream);border-color:rgba(246,241,231,.7)}
+.btn.ghost:hover{background:var(--cream);color:var(--deep)}
+.btn.outline{background:transparent;color:var(--olive)}
+.btn.outline:hover{background:var(--olive);color:var(--cream)}
+.btn.gold{background:var(--gold);color:var(--deep);border-color:var(--gold)}
+.btn.gold:hover{background:var(--cream)}
+/* placeholders de foto: troque definindo style="--img:url(foto.webp)" */
+.ph{position:relative;overflow:hidden;background:var(--img,none) center/cover,linear-gradient(160deg,var(--sand),#c9bda3 55%,var(--olive));border-radius:200px 200px 14px 14px}
+.ph.sq{border-radius:14px}
+.ph::after{content:"Foto do cliente — substituir";position:absolute;inset:auto 0 .8rem;text-align:center;font-size:.72rem;letter-spacing:.1em;color:rgba(255,255,255,.85)}
+.ph[style*="--img"]::after{display:none}
+.ph>i{position:absolute;inset:-6% 0;background:inherit;transition:transform 1s ease}
+/* header */
+header{position:fixed;inset:0 0 auto;z-index:50;height:var(--h);display:flex;align-items:center;transition:height .4s,background .4s,box-shadow .4s;padding-top:env(safe-area-inset-top,0)}
+header.s{height:64px;background:rgba(246,241,231,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 1px 14px rgba(41,43,38,.06)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--cream);font:500 1.25rem var(--serif);letter-spacing:.14em;transition:color .4s}
+header.s .brand,header.o .brand{color:var(--olive)}
+.brand svg{width:34px;height:34px}
+nav ul{display:flex;gap:1.8rem;list-style:none;padding:0}
+nav a{text-decoration:none;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cream);padding:.4rem 0;border-bottom:1px solid transparent;transition:color .3s,border-color .3s}
+header.s nav a{color:var(--ink)}
+nav a:hover,nav a.on{border-color:var(--gold)}
+.hdr-cta{display:flex;align-items:center;gap:.6rem}
+.hdr-cta .btn{min-height:42px;padding:.5rem 1.2rem;font-size:.75rem}
+.burger{display:none;width:48px;height:48px;border:0;background:none;cursor:pointer;position:relative}
+.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:var(--cream);transition:.3s}
+header.s .burger span,header.o .burger span{background:var(--olive)}
+.burger span:nth-child(1){top:18px}.burger span:nth-child(2){top:29px}
+header.o .burger span:nth-child(1){top:23px;transform:rotate(45deg)}
+header.o .burger span:nth-child(2){top:23px;transform:rotate(-45deg)}
+@media(max-width:900px){
+ .burger{display:block}
+ nav{position:fixed;inset:0;background:var(--cream);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:.4s;z-index:-1}
+ header.o nav{opacity:1;visibility:visible}
+ nav ul{flex-direction:column;align-items:center;gap:1.4rem}
+ nav a{font:500 2rem var(--serif);text-transform:none;letter-spacing:.06em;color:var(--olive)!important}
+ header.o{background:var(--cream)}
+ .hdr-cta .btn{display:none}
+}
+/* hero */
+.hero{min-height:100svh;display:grid;align-items:end;color:var(--cream);padding:0;position:relative;overflow:hidden;background:var(--img,none) center/cover,linear-gradient(165deg,#8a8f6a,var(--olive) 45%,var(--deep))}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(41,43,38,.5),rgba(41,43,38,.08) 60%)}
+.hero .wrap{position:relative;padding:8rem 0 6rem}
+.hero h1{color:var(--cream);font-size:clamp(3rem,10vw,7rem);letter-spacing:.14em;font-weight:500}
+.hero p{max-width:30rem;margin:1rem 0 2rem;font-size:1.15rem}
+.hero .sub{font:italic 400 clamp(1.5rem,3.5vw,2.2rem) var(--serif);margin:.6rem 0 0}
+.btns{display:flex;flex-wrap:wrap;gap:.9rem}
+.hero-in>*{opacity:0;transform:translateY(22px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+.hero-in>*:nth-child(2){animation-delay:.15s}.hero-in>*:nth-child(3){animation-delay:.3s}.hero-in>*:nth-child(4){animation-delay:.45s}
+@keyframes up{to{opacity:1;transform:none}}
+.scroll{position:absolute;right:1.5rem;bottom:2rem;width:1px;height:60px;background:rgba(246,241,231,.4);overflow:hidden}
+.scroll::after{content:"";position:absolute;left:0;top:-30px;width:1px;height:30px;background:var(--gold);animation:sc 2.2s infinite}
+@keyframes sc{to{top:60px}}
+/* layout */
+.split{display:grid;gap:3rem;align-items:center}
+@media(min-width:900px){.split{grid-template-columns:1fr 1fr;gap:6rem}.split.rev>:first-child{order:2}}
+.split .ph{aspect-ratio:4/5;width:100%}
+.tag{color:var(--gold);font-family:var(--serif);font-style:italic;font-size:1.3rem}
+/* serviços */
+.sv{background:var(--cream)}
+.grid{display:grid;gap:1.5rem;margin-top:3rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.card{background:#fff;border:1px solid transparent;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .5s,border-color .5s,box-shadow .5s}
+.card:hover,.card:focus-within{transform:translateY(-5px);border-color:var(--gold);box-shadow:0 18px 36px -24px rgba(63,73,48,.5)}
+.card .ph{aspect-ratio:4/3;border-radius:0}
+.card:hover .ph>i{transform:scale(1.07)}
+.card div.b{padding:1.5rem 1.6rem 1.8rem;display:flex;flex-direction:column;gap:.7rem;flex:1;align-items:flex-start}
+.card p{font-size:.97rem;color:#575a50;flex:1}
+.card .ico{width:28px;height:28px;stroke:var(--gold);fill:none;stroke-width:1.4;transition:transform .6s}
+.card:hover .ico{transform:rotate(18deg)}
+/* head spa */
+.head{background:var(--deep);color:var(--cream)}
+.head h2,.head h3{color:var(--cream)}
+.head .lead{color:#e6dfcf}
+.head .ph{border-radius:14px 200px 14px 14px}
+/* galeria */
+.gal{display:grid;gap:.8rem;grid-template-columns:repeat(2,1fr);margin-top:3rem}
+@media(min-width:800px){.gal{grid-template-columns:repeat(4,1fr)}.gal .w{grid-column:span 2}}
+.gal button{border:0;padding:0;background:none;cursor:zoom-in;display:block;border-radius:14px;overflow:hidden}
+.gal .ph{aspect-ratio:1;border-radius:14px;transition:transform .6s}
+.gal .w .ph{aspect-ratio:2/1}
+.gal button:hover .ph>i{transform:scale(1.06)}
+/* experiências */
+.exp{background:var(--sand)}
+.exp ul{list-style:none;padding:0;margin-top:2.5rem;border-top:1px solid var(--gold)}
+.exp li{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center;padding:1.5rem 0;border-bottom:1px solid var(--gold)}
+.exp li span{font:500 1.7rem var(--serif);color:var(--deep)}
+.exp small{display:block;font-size:.85rem;color:#575a50}
+.note{font-size:.85rem;color:#6b6e63;margin-top:1.2rem}
+/* depoimentos */
+.dep{border:1px dashed var(--gold);border-radius:14px;padding:2.5rem;max-width:40rem;margin-top:2.5rem;color:#575a50}
+.stars{color:var(--gold);letter-spacing:.2em}
+/* contato */
+.info{display:grid;gap:2.5rem}
+@media(min-width:900px){.info{grid-template-columns:1fr 1.3fr;gap:5rem}}
+.info dl{display:grid;gap:1.3rem;margin:1.5rem 0 2rem}
+.info dt{font:500 1.25rem var(--serif);color:var(--olive)}
+.info dd{margin:0}
+.ph-txt{background:#fff3cf;padding:.05rem .4rem;border-radius:4px;font-size:.9rem}
+.map{min-height:340px;border-radius:14px;border:1px solid var(--gold);display:grid;place-items:center;text-align:center;padding:2rem;background:linear-gradient(160deg,#fff,var(--sand))}
+/* cta final */
+.final{background:var(--olive);color:var(--cream);text-align:center}
+.final h2{color:var(--cream)}
+.final .line{margin-inline:auto}
+.final p{margin-bottom:2rem;font-size:1.15rem}
+/* footer */
+footer{background:var(--deep);color:#e6dfcf;padding:4rem 0 2rem;font-size:.95rem}
+.ft{display:grid;gap:2.5rem}
+@media(min-width:800px){.ft{grid-template-columns:1.4fr 1fr 1fr}}
+footer h3{color:var(--gold);font-size:1.2rem;margin-bottom:.8rem}
+footer ul{list-style:none;padding:0}
+footer a{text-decoration:none}footer a:hover{color:var(--gold)}
+footer li{padding:.2rem 0}
+.copy{border-top:1px solid rgba(200,168,91,.35);margin-top:3rem;padding-top:1.5rem;font-size:.82rem}
+/* whatsapp */
+.wa{position:fixed;right:max(1rem,env(safe-area-inset-right));bottom:max(1rem,env(safe-area-inset-bottom));z-index:40;width:58px;height:58px;border-radius:50%;background:var(--olive);border:1px solid var(--gold);display:grid;place-items:center;animation:pulse 3.5s infinite;transition:transform .3s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:28px;height:28px;fill:var(--cream)}
+@keyframes pulse{50%{box-shadow:0 0 0 10px rgba(200,168,91,.18)}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(41,43,38,.94);display:none;align-items:center;justify-content:center;padding:1rem}
+.lb.on{display:flex}
+.lb .ph{width:min(90vw,820px);height:min(70vh,640px);border-radius:14px;animation:up .4s both}
+.lb button{position:absolute;border:1px solid var(--gold);background:none;color:var(--cream);width:48px;height:48px;border-radius:50%;font-size:1.4rem;cursor:pointer}
+.lb button:hover{background:var(--gold);color:var(--deep)}
+.lb .x{top:1rem;right:1rem}.lb .p{left:1rem;top:50%}.lb .n{right:1rem;top:50%}
+.dots{position:absolute;bottom:1.5rem;display:flex;gap:.5rem}
+.dots i{width:8px;height:8px;border-radius:50%;background:rgba(246,241,231,.35)}.dots i.on{background:var(--gold)}
+.toast{position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%);background:var(--deep);color:var(--cream);padding:.8rem 1.4rem;border-radius:999px;font-size:.9rem;z-index:99;opacity:0;pointer-events:none;transition:.4s;max-width:90vw;text-align:center}
+.toast.on{opacity:1}
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s,transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}
+ .rv,.hero-in>*{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 40 40"><!-- PLACEHOLDER: substituir pelo logo original do cliente --><path d="M28 8C19 3 9 10 15 18c5 6 11 6 8 15-6 3-14-1-14-7" fill="none" stroke="#C8A85B" stroke-width="3" stroke-linecap="round"/><path d="M31 12C24 9 17 13 21 19c3 4 8 4 5 11" fill="none" stroke="#9fa874" stroke-width="2.4" stroke-linecap="round"/></symbol></svg>
+
+<header id="hd">
+ <div class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="Spa Campolim — início"><svg aria-hidden="true"><use href="#logo"/></svg>SPA CAMPOLIM</a>
+  <nav id="menu" aria-label="Principal"><ul>
+   <li><a href="#inicio">Início</a></li><li><a href="#experiencia">Experiência</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#spa">O Spa</a></li><li><a href="#depoimentos">Depoimentos</a></li><li><a href="#contato">Contato</a></li>
+  </ul></nav>
+  <div class="hdr-cta"><a class="btn gold wa-link" href="#contato">Agendar</a>
+   <button class="burger" id="bg" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button></div>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="inicio" aria-label="Spa Campolim">
+ <div class="wrap hero-in">
+  <h1>SPA CAMPOLIM</h1>
+  <p class="sub">Um momento para cuidar de você.</p>
+  <p>Head &amp; Body Spa em Sorocaba, para quem busca pausa, acolhimento e bem-estar.</p>
+  <div class="btns"><a class="btn gold wa-link" href="#contato">Agendar pelo WhatsApp</a><a class="btn ghost" href="#experiencia">Conhecer o Spa</a></div>
+ </div>
+ <span class="scroll" aria-hidden="true"></span>
+</section>
+
+<section id="experiencia"><div class="wrap split">
+ <div class="rv"><p class="tag">A proposta</p><h2>Uma experiência pensada para você</h2><div class="line"></div>
+  <p class="lead">Aqui o tempo desacelera. Cada atendimento é um convite ao relaxamento e ao autocuidado, em um ambiente acolhedor, com atenção aos detalhes.</p></div>
+ <div class="ph rv"><i data-px></i></div>
+</div></section>
+
+<section class="sv" id="servicos"><div class="wrap">
+ <div class="rv"><h2>Serviços</h2><p class="lead">Conheça o que oferecemos.</p></div>
+ <div class="grid rv" id="sv"></div>
+</div></section>
+
+<section class="head" id="headspa"><div class="wrap split rev">
+ <div class="rv"><h2>Head Spa</h2><p class="tag">Um ritual de cuidado e relaxamento.</p><div class="line"></div>
+  <p class="lead" style="margin-bottom:2rem">Uma das experiências mais marcantes do Spa Campolim, feita para desacelerar e se desconectar da rotina.</p>
+  <a class="btn gold wa-link" href="#contato" data-msg="Olá! Quero conhecer o Head Spa.">Quero conhecer</a></div>
+ <div class="ph rv"><i data-px></i></div>
+</div></section>
+
+<section id="spa"><div class="wrap">
+ <div class="rv"><h2>O Spa</h2><p class="lead">Um espaço de acolhimento, limpeza e tranquilidade. Clique para ampliar.</p></div>
+ <div class="gal rv" id="gal"></div>
+</div></section>
+
+<section class="exp" id="experiencias"><div class="wrap">
+ <div class="rv"><h2>Experiências</h2><p class="lead">Consulte as opções disponíveis no WhatsApp.</p>
+ <ul id="ex"></ul>
+ <p class="note">Valores e condições: a definir pelo Spa. Edite o array EXP no código para atualizar.</p></div>
+</div></section>
+
+<section id="depoimentos"><div class="wrap">
+ <div class="rv"><h2>Depoimentos</h2><p class="stars" aria-hidden="true">★★★★★</p>
+ <div class="dep" id="dp"><span class="ph-txt">Aguardando avaliações reais do cliente.</span> Adicione-as no array DEPOIMENTOS ({nome, texto, estrelas}); nenhum depoimento fictício foi criado.</div></div>
+</div></section>
+
+<section id="instagram" style="background:var(--sand)"><div class="wrap">
+ <div class="rv"><h2>Conheça mais do nosso universo</h2>
+ <div class="gal" id="ig" style="grid-template-columns:repeat(3,1fr)"></div>
+ <p style="margin-top:2rem"><a class="btn outline" id="igl" href="#contato" rel="noopener">Instagram</a></p></div>
+</div></section>
+
+<section id="contato"><div class="wrap info">
+ <div class="rv"><h2>Localização</h2><div class="line"></div>
+  <dl>
+   <div><dt>Endereço</dt><dd><span class="ph-txt" id="addr">[endereço oficial a informar]</span><br>Sorocaba – SP</dd></div>
+   <div><dt>Horário</dt><dd><span class="ph-txt">[horário oficial a informar]</span></dd></div>
+   <div><dt>WhatsApp</dt><dd><span class="ph-txt" id="tel">[número oficial a informar]</span></dd></div>
+  </dl>
+  <a class="btn outline" id="route" href="https://www.google.com/maps/search/?api=1&query=Spa+Campolim+Sorocaba" target="_blank" rel="noopener">Como chegar</a></div>
+ <div class="map rv" role="img" aria-label="Espaço reservado para o mapa"><p>Mapa incorporado após confirmação do endereço oficial.<br><small>Enquanto isso, “Como chegar” abre o Google Maps.</small></p></div>
+</div></section>
+
+<section class="final"><div class="wrap rv">
+ <h2>Seu momento começa aqui.</h2><div class="line"></div><p>Reserve um momento para você.</p>
+ <a class="btn gold wa-link" href="#contato">Agendar pelo WhatsApp</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="ft">
+  <div><a class="brand" href="#inicio" style="color:var(--cream)"><svg aria-hidden="true"><use href="#logo"/></svg>SPA CAMPOLIM</a><p style="margin-top:1rem">Head &amp; Body Spa<br>Sorocaba – SP</p></div>
+  <div><h3>Navegar</h3><ul><li><a href="#experiencia">Experiência</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#spa">O Spa</a></li><li><a href="#depoimentos">Depoimentos</a></li><li><a href="#contato">Contato</a></li></ul></div>
+  <div><h3>Contato</h3><ul><li><a class="wa-link" href="#contato">WhatsApp</a></li><li><a id="igf" href="#contato">Instagram</a></li><li>[endereço a informar]</li></ul></div>
+ </div>
+ <p class="copy">© <span id="yr"></span> Spa Campolim Head &amp; Body Spa. Todos os direitos reservados.</p>
+</div></footer>
+
+<a class="wa wa-link" href="#contato" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.200l-.3-.2-3 .8.8-2.900-.2-.3A8.200 8.200 0 1 1 12 20.200zm4.500-6.100c-.2-.1-1.500-.7-1.700-.8-.2-.1-.4-.1-.6.100l-.8 1c-.1.200-.3.200-.5.100-.7-.3-1.500-.8-2.200-1.500-.6-.6-1-1.300-1.100-1.500-.1-.2 0-.3.100-.5l.4-.4.200-.4c.1-.2 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.100-.7.300-.2.300-.9.900-.9 2.200s.9 2.500 1 2.700c.1.200 1.800 2.800 4.400 3.900 1.600.7 2.200.7 3 .6.500-.1 1.500-.6 1.700-1.200.2-.6.2-1.100.2-1.200-.1-.1-.3-.2-.5-.3z"/></svg></a>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galeria de imagens">
+ <button class="x" aria-label="Fechar">×</button><button class="p" aria-label="Anterior">‹</button>
+ <div class="ph sq" id="lbi" role="img"></div>
+ <button class="n" aria-label="Próxima">›</button><div class="dots" id="dots"></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ===== CONFIGURAÇÃO — preencher com dados oficiais ===== */
+const WHATSAPP = "";            // ex.: "5515999999999" (DDI+DDD+número)
+const INSTAGRAM = "";           // ex.: "https://www.instagram.com/usuario"
+const ENDERECO = "";            // endereço oficial, para o botão "Como chegar"
+const SERVICOS = [
+ ["Head Spa","Ritual de cuidado e relaxamento para o couro cabeludo e a mente."],
+ ["Massoterapia","Massagens para desacelerar e aliviar a tensão do dia a dia."],
+ ["Drenagem Linfática","Técnica de massagem suave, em ritmo calmo e acolhedor."],
+ ["Reflexoterapia","Atendimento focado nos pés, para uma pausa de relaxamento."],
+ ["Ventosaterapia","Técnica com ventosas, realizada com cuidado e atenção."],
+ ["Day Spa","Um dia dedicado ao seu bem-estar e ao autocuidado."]];
+const EXP = [["Experiências Head Spa",""],["Experiência para casal",""],["Experiências de relaxamento",""],["Day Spa",""]];
+const DEPOIMENTOS = []; // [{nome:"", texto:"", estrelas:5}]
+/* imagens: troque por URLs reais, ex.: GAL[0] = "fotos/spa1.webp" */
+const GAL = ["","","","","",""];
+/* ======================================================= */
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const phi=(src,p)=>`<div class="ph sq"${src?` style="--img:url('${src}')"`:""}${p?" data-px":""}><i></i></div>`;
+const ic='<svg class="ico" viewBox="0 0 28 28" aria-hidden="true"><path d="M22 6C14 2 6 8 11 14c4 5 9 4 6 10"/></svg>';
+$("#sv").innerHTML=SERVICOS.map(([n,d])=>`<article class="card">${phi("")}<div class="b">${ic}<h3>${n}</h3><p>${d}</p><a class="btn outline wa-link" href="#contato" data-msg="Olá! Quero conhecer: ${n}.">Conhecer</a></div></article>`).join("");
+$("#gal").innerHTML=GAL.map((s,i)=>`<button class="${i==0||i==5?"w":""}" data-i="${i}" aria-label="Ampliar foto ${i+1} do espaço">${phi(s)}</button>`).join("");
+$("#ig").innerHTML=GAL.map((s,i)=>`<button data-i="${i}" aria-label="Ampliar imagem ${i+1}">${phi(s)}</button>`).join("");
+$("#ex").innerHTML=EXP.map(([n,d])=>`<li><div><span>${n}</span><small>${d||"Detalhes e valores sob consulta"}</small></div><a class="btn outline wa-link" href="#contato" data-msg="Olá! Quero saber mais sobre: ${n}.">Consultar</a></li>`).join("");
+if(DEPOIMENTOS.length)$("#dp").outerHTML=`<div class="grid">`+DEPOIMENTOS.map(d=>`<figure class="card"><div class="b"><span class="stars" aria-label="${d.estrelas||5} de 5 estrelas">${"★".repeat(d.estrelas||5)}</span><p>${d.texto}</p><figcaption>${d.nome||""}</figcaption></div></figure>`).join("")+`</div>`;
+$("#yr").textContent=new Date().getFullYear();
+/* toast + links */
+const toast=m=>{const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("on"),3200)};
+document.addEventListener("click",e=>{
+ const a=e.target.closest(".wa-link");if(!a)return;
+ if(WHATSAPP){e.preventDefault();open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(a.dataset.msg||"Olá! Gostaria de agendar um horário no Spa Campolim.")}`,"_blank","noopener")}
+ else{toast("Número de WhatsApp a ser informado pelo Spa.")}
+});
+if(INSTAGRAM){["igl","igf"].forEach(i=>{const a=$("#"+i);a.href=INSTAGRAM;a.target="_blank"})}
+else{["igl","igf"].forEach(i=>$("#"+i).addEventListener("click",()=>toast("Link do Instagram a ser informado.")))}
+if(ENDERECO){$("#addr").textContent=ENDERECO;$("#addr").classList.remove("ph-txt");$("#route").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(ENDERECO)}
+if(WHATSAPP){$("#tel").textContent="+"+WHATSAPP;$("#tel").classList.remove("ph-txt")}
+/* header + menu */
+const hd=$("#hd"),bg=$("#bg");
+const onS=()=>{hd.classList.toggle("s",scrollY>40);parallax()};
+bg.onclick=()=>{const o=hd.classList.toggle("o");bg.setAttribute("aria-expanded",o);document.body.style.overflow=o?"hidden":""};
+$$("#menu a").forEach(a=>a.addEventListener("click",()=>{hd.classList.remove("o");bg.setAttribute("aria-expanded",false);document.body.style.overflow=""}));
+/* parallax sutil */
+const reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function parallax(){if(reduce)return;$$("[data-px]").forEach(el=>{const r=el.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;el.style.transform=`translateY(${((r.top+r.height/2-innerHeight/2)*-.04).toFixed(1)}px)`})}
+addEventListener("scroll",onS,{passive:true});onS();
+/* reveal + seção atual */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+$$(".rv").forEach(el=>io.observe(el));
+const links=$$("#menu a"),so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle("on",l.getAttribute("href")=="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});
+$$("section[id]").forEach(s=>so.observe(s));
+/* lightbox */
+const lb=$("#lb"),lbi=$("#lbi");let cur=0,last;
+const show=i=>{cur=(i+GAL.length)%GAL.length;lbi.style.setProperty("--img",GAL[cur]?`url('${GAL[cur]}')`:"none");lbi.setAttribute("style",GAL[cur]?`--img:url('${GAL[cur]}')`:"");lbi.setAttribute("aria-label",`Foto ${cur+1} de ${GAL.length}`);$("#dots").innerHTML=GAL.map((_,k)=>`<i class="${k==cur?"on":""}"></i>`).join("")};
+const closeLb=()=>{lb.classList.remove("on");document.body.style.overflow="";last&&last.focus()};
+document.addEventListener("click",e=>{const b=e.target.closest("[data-i]");if(b){last=b;show(+b.dataset.i);lb.classList.add("on");document.body.style.overflow="hidden";$(".x",lb).focus()}});
+$(".x",lb).onclick=closeLb;$(".p",lb).onclick=()=>show(cur-1);$(".n",lb).onclick=()=>show(cur+1);
+lb.addEventListener("click",e=>{if(e.target==lb)closeLb()});
+addEventListener("keydown",e=>{if(!lb.classList.contains("on"))return;if(e.key=="Escape")closeLb();if(e.key=="ArrowLeft")show(cur-1);if(e.key=="ArrowRight")show(cur+1)});
+</script>
+</body>
+</html>
